@@ -72,12 +72,12 @@ I recommend reading the docs of these plugins to understand them better. Each of
 
 ## What color schemes are included?
 
-* [peaksea](https://github.com/vim-scripts/peaksea): My favorite!
+* [peaksea](https://github.com/vim-scripts/peaksea)
 * [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized)
 * [vim-irblack](https://github.com/wgibbs/vim-irblack)
 * [mayansmoke](https://github.com/vim-scripts/mayansmoke)
 * [vim-pyte](https://github.com/therubymug/vim-pyte)
-
+* [Monokai](https://github.com/sickill/vim-monokai) (default colorsheme)
 
 ## What modes are included?
 
