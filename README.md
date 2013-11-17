@@ -1,34 +1,29 @@
 # The Ultimate vimrc
 
-Over the last 8 years I have used and tweaked Vim. This is my Ultimate vimrc.
+Thanks to [amix](https://github.com/amix/).
 
 There are two versions:
 
-* **Basic**: If you want something small just copy [basic.vim](https://github.com/amix/vimrc/blob/master/vimrcs/basic.vim) into your ~/.vimrc and you will have a great basic setup
+* **Basic**: If you want something small just copy [basic.vim](https://github.com/tahaaltuntas/vimrc/blob/master/vimrcs/basic.vim) into your ~/.vimrc and you will have a great basic setup
 * **Awesome**: This includes a ton of useful plugins, color schemes and configurations
 
 I would of course recommend using the awesome version.
 
 
 ## How to install the Basic version?
-The basic version is basically just one file and no plugins. You can check out [basic.vim](https://github.com/amix/vimrc/blob/master/vimrcs/basic.vim).
+The basic version is basically just one file and no plugins. You can check out [basic.vim](https://github.com/tahaaltuntas/vimrc/blob/master/vimrcs/basic.vim).
 
 This is useful to install on remote servers where you don't need many plugins and you don't do many edits.
 
-	git clone git://github.com/amix/vimrc.git ~/.vim_runtime
+	git clone git://github.com/tahaaltuntas/vimrc.git ~/.vim_runtime
 	sh ~/.vim_runtime/install_basic_vimrc.sh
 
 
 ## How to install the Awesome version?
 The awesome version includes a lot of great plugins, configurations and color schemes that make Vim a lot better. To install it simply do following:
 
-	git clone git://github.com/amix/vimrc.git ~/.vim_runtime
+	git clone git://github.com/tahaaltuntas/vimrc.git ~/.vim_runtime
 	sh ~/.vim_runtime/install_awesome_vimrc.sh
-
-
-## How to install on Windows?
-
-Use [msysgit](http://msysgit.github.com/) to checkout the repository and run the installation instructions above. No special instructions needed ;-)
 
 
 ## How to update to latest version?
@@ -289,13 +284,3 @@ Vimscript mappings:
     map <leader>n :cn<cr>
     map <leader>p :cp<cr>
 
-
-## Useful blog tips regarding my Vim setup
-
-* [Vim: Annotate strings with gettext (the macro way)](http://amix.dk/blog/post/19678#Vim-Annotate-strings-with-gettext-the-macro-way)
-* [vimgrep: Searching through multiple file extensions](http://amix.dk/blog/post/19672#vimgrep-Searching-through-multiple-file-extensions)
-* [Filtering through vimgrep results using regular expressions](http://amix.dk/blog/post/19666#Filtering-through-vimgrep-results-using-regular-expressions)
-* [PeepOpen - File auto completion for Mac editors](http://amix.dk/blog/post/19601#PeepOpen-File-auto-completion-for-Mac-editors)
-* [Vim 7.3: Persistent undo and encryption!](http://amix.dk/blog/post/19548#Vim-7-3-Persistent-undo-and-encryption)
-* [Vim tips: Visual Search](http://amix.dk/blog/post/19334#Vim-tips-Visual-Search)
-* [Folding in Vim](http://amix.dk/blog/post/19132#Folding-in-Vim)
